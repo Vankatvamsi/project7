@@ -45,10 +45,11 @@ export default function App() {
               <p>Humidity: {weather.main.humidity} %</p>
               <p>Weather: {weather.weather[0].description}</p>
               <p>Wind Speed: {weather.wind.speed} m/s</p>
+              
               </div>
           )}
         </div>
-      <div className='footer'></div>
+      <div className='footer'>© 2026 vamsi. All rights reserved.</div>
     </div>
 
   )
